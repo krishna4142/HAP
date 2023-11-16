@@ -2,7 +2,7 @@ html{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     align-content: center;
     padding-left: 10%;
     /* align-content: center;
@@ -73,4 +73,8 @@ hr{
 }
 h1{
     text-align: center;
+}
+.chair{
+display: flex;
+flex-wrap: wrap;
 }
