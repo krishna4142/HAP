@@ -1,0 +1,76 @@
+html{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid red;
+    align-content: center;
+    padding-left: 10%;
+    /* align-content: center;
+    justify-content: center;
+    align-items: center; */
+}
+.header{
+    width: 90%;
+    height: 300px;
+    border: 1px solid red;
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+}
+/* .header div{
+    border: 1px solid yellow;
+} */
+.name{
+    width: 100%;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    
+}
+.o-name{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(to top left,yellow,rgb(4, 0, 255),green,rgb(64, 0, 255),rgb(13, 0, 255),green,green,blue,yellow);
+    -webkit-background-clip: text;
+    color: transparent;
+    padding: 5%;
+    flex-grow: 2;
+}
+ 
+img{
+    width: 130px;
+    height: 100%;
+    border-radius: 20px;
+    
+}
+span{
+    margin: 8%;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    box-shadow: 0 10px 10px black;
+}
+.navigation{
+    width: 90%;
+    display: flex;
+    /* border: 1px solid red; */
+    align-content: space-around;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    
+    width: 90%;
+    padding-left: 10%;
+    
+}
+#history{
+    width: 90%;
+    display: flex;
+}
+h1{
+    text-align: center;
+}
