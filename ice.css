@@ -8,7 +8,7 @@ html{
     /* align-content: center;
     justify-content: center;
     align-items: center; */
-    background-color: rgba(0, 0, 0, 0.129);
+    background-color:rgba(0, 0, 0, 0.37);
 
 }
 .header{
@@ -71,6 +71,7 @@ h1{
     font-size: 30px;
 }
 .parent {
+    /* background-color: rgba(0, 0, 0, 0.14); */
     width: 90%;
     border: 1px solid white;
     display: flex;
